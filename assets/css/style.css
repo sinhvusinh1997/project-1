@@ -817,21 +817,25 @@ h3 {
 .modal#modal-contact .modal-content .main .body form input::-webkit-input-placeholder,
 .modal#modal-contact .modal-content .main .body form textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.816);
+  font-size: 1rem;
 }
 
 .modal#modal-contact .modal-content .main .body form input:-ms-input-placeholder,
 .modal#modal-contact .modal-content .main .body form textarea:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.816);
+  font-size: 1rem;
 }
 
 .modal#modal-contact .modal-content .main .body form input::-ms-input-placeholder,
 .modal#modal-contact .modal-content .main .body form textarea::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.816);
+  font-size: 1rem;
 }
 
 .modal#modal-contact .modal-content .main .body form input::placeholder,
 .modal#modal-contact .modal-content .main .body form textarea::placeholder {
   color: rgba(255, 255, 255, 0.816);
+  font-size: 1rem;
 }
 
 .modal#modal-contact .modal-content .main .body form input:focus,

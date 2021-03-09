@@ -118,21 +118,5 @@ const carouselSlide = (function () {
   });
 })();
 
-// =============== CAROUSEL IMAGE ==============
-
-const submitBtns = document.querySelectorAll('.btn-submit');
-const inputName = document.querySelector('.form-text');
-const inputEmail = document.querySelector('.form-mail');
-const inputMess = document.querySelector('.form-mess');
-
-
-inputName.addEventListener('blur', () => {
-  checkName(inputName.value)
-})
-
-function checkName (val) {
-  let mess = val.trim() ? val : 'Error';
-  console.log(mess)
-};
-
+// =============== END CAROUSEL IMAGE ==============
 
